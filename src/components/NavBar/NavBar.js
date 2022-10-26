@@ -1,12 +1,14 @@
 import React from 'react';
-import './NavBar.css'
+import logo from '../../images/logoooo.png';
+import './Navbar.css';
 
-function NavBar() {
+
+function Navbar() {
     return (
-        <div className="navBar">
-
+        <div className='navbar_container'>
+            <img src={logo} alt="logo" />
         </div>
     )
 }
 
-export default NavBar;
+export default Navbar
