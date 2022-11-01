@@ -96,7 +96,14 @@
           align-items: center;
 }
 
-.up-info_container .up-info-content .social-line img {
+.up-info_container .up-info-content .social-line a {
+  height: 60%;
+  width: auto;
+  cursor: pointer;
+  margin: 6px;
+}
+
+.up-info_container .up-info-content .social-line a img {
   height: 60%;
   width: auto;
   cursor: pointer;

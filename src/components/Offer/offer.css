@@ -1,0 +1,67 @@
+.offer_container {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.offer_container h2 {
+  margin: 0;
+  position: relative;
+  color: var(--orange);
+  padding-top: 36px;
+  font-size: 32px;
+}
+
+.offer_container ul {
+  list-style: none;
+  width: 80%;
+  max-width: 1250px;
+  height: auto;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.offer_container ul li {
+  width: 340px;
+  height: 200px;
+  background-color: black;
+  margin: 20px 20px;
+  position: relative;
+}
+
+.offer_container ul li img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0px 0px;
+     object-position: 0px 0px;
+  opacity: 0.4;
+}
+
+.offer_container ul li h4 {
+  position: absolute;
+  color: var(--orange);
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=offer.css.map */

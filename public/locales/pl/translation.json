@@ -1,8 +1,23 @@
 {
-    "title": "Willkommen zu react und react-i18next",
-    "description": {
-      "part1": "Um loszulegen, ändere <1>src/App(DE).js</1> speichern und neuladen.",
-      "part2": "Ändere die Sprachen zwischen deutsch und englisch mit Hilfe der beiden Schalter.",
-      "part3": "ja jebu"
-    }
-  }
+    "sliderText1": "Zadzwoń i umów się na wizytę do końca listopada",
+    "sliderSubText1": "otrzymaj zniżkę",
+    "sliderText2": "Kup części zamienne ",
+    "sliderSubText2": "a na usługę dostaniesz rabat",
+    "sliderText3": "Naprawa silnika, skrzyni biegów, rozrząd?",
+    "sliderSubText3": "Zajmiemy się tym!",
+    "offer1": "Naprawa silników",
+    "offer2": "Naprawa skrzyni biegów",
+    "offer3": "Konserwacja systemu hamulcowego",
+    "offer4": "Diagnostyka zawieszenia",
+    "offer5": "Wymiana olejów i filtrów",
+    "offer6": "Naprawa układu kierowniczego",
+    "offer7": "Wymiana/Naprawa układu wydechowego",
+    "offer8": "Wymiana termostatu / lamp",
+    "offer9": "Wymiana paska rozrządu",
+    "offer10": "Elektryka samochodowa",
+    "offers": "Usługi",
+    "contact": "Kontakt",
+    "map": "Mapa",
+    "rodo": "Akceptuję informacje dotyczące ochrony danych osobowych",
+    "name": "Imię"
+}

@@ -1,8 +1,23 @@
 {
-    "title": "Welcome to react using react-i18next",
-    "description": {
-      "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
-      "part2": "Switch language between english and german using buttons above.",
-      "part3": "ja jebu2"
-    }
-  }
+  "sliderText1": "Сделай запись до конца ноября",
+  "sliderSubText1": "Получи скидку",
+  "sliderText2": "Купи запчасти у нас",
+  "sliderSubText2": "И получи специальное предложение на их замену",
+  "sliderText3": "Стучит двигатель , не работает коробка передач , свист от ГРМ?",
+  "sliderSubText3": "Мы решим проблему!",
+  "offer1": "Ремонт двигателя",
+    "offer2": "Ремонт коробки передач",
+    "offer3": "Починка  тормозной системы",
+    "offer4": "Диагностика подвески",
+    "offer5": "Замена масла и фильтров",
+    "offer6": "Ремонт рулевой системы",
+    "offer7": "Замена/ремонт выхлопной системы",
+    "offer8": "Замена термостата / фар",
+    "offer9": "Замена ГРМ",
+    "offer10": "Автоэлектрика",
+    "offers": "услуги",
+    "contact": "контакт",
+    "map": "карта",
+    "rodo": "Принимаю ,Общий регламент защиты персональных данных",
+    "name": "имя"
+}

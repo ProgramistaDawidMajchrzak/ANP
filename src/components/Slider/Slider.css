@@ -16,7 +16,7 @@
 }
 
 .slider-container .text-content {
-  width: 60%;
+  width: 70%;
   max-width: 700px;
   height: 100%;
   top: 0;
@@ -29,12 +29,5 @@
   color: var(--orange);
   font-size: 42px;
   font-weight: 700;
-}
-
-.slider-container .text-content h5 {
-  margin: 26px 120px;
-  color: var(--orange);
-  font-size: 32px;
-  font-weight: 600;
 }
 /*# sourceMappingURL=Slider.css.map */

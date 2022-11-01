@@ -1,0 +1,101 @@
+.contact_container {
+  width: 100%;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+.contact_container .left_info {
+  width: 50%;
+  height: 100%;
+}
+
+.contact_container .left_info img {
+  width: 80%;
+  max-width: 500px;
+  height: auto;
+  position: relative;
+  left: 50%;
+  top: 0;
+  margin-top: 30px;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
+.contact_container .right_info {
+  width: 50%;
+  height: 100%;
+}
+
+.contact_container .right_info form {
+  position: relative;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 20px;
+}
+
+.contact_container .right_info form input, .contact_container .right_info form textarea {
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  background-color: transparent;
+  margin: 16px 0;
+  border: none;
+  border-left: 5px solid var(--orange);
+  border-bottom: 5px solid var(--orange);
+  padding: 12px;
+}
+
+.contact_container .right_info form textarea {
+  padding: 12px 12px 82px 12px;
+}
+
+.contact_container .right_info form .input-valid {
+  border-color: red;
+}
+
+.contact_container .right_info form .submit_input {
+  width: auto;
+  background-color: var(--orange);
+  color: white;
+}
+
+.contact_container .right_info form .rodo-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+}
+
+.contact_container .right_info form .rodo-box input {
+  width: 20px;
+}
+
+.contact_container .right_info form .rodo-box .checkbox-valid {
+  outline: 5px solid red;
+}
+
+.contact_container .right_info form .rodo-box p {
+  margin-left: 6px;
+}
+
+.contact_container h2 {
+  color: var(--orange);
+  margin: 0 40%;
+  font-size: 32px;
+}
+/*# sourceMappingURL=Contact.css.map */
