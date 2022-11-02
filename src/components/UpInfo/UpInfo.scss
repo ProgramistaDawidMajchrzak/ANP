@@ -76,11 +76,19 @@
     }
     @media only screen and (max-width: 600px) {
         .up-info-content{
+            p{
+                font-size: 14px;
+                margin-left: 4px;
+                width: auto;
+            }
             .second_phone{
                 display: none;
             }
             .location-line{
                 display: none;
+            }
+            .language-line{
+                margin-left: 50px;
             }
         }
       }

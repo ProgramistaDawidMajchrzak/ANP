@@ -12,4 +12,11 @@
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
 }
+
+@media only screen and (max-width: 600px) {
+  .navbar_container img {
+    height: auto;
+    width: 90%;
+  }
+}
 /*# sourceMappingURL=Navbar.css.map */

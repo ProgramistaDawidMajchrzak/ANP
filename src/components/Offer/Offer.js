@@ -7,8 +7,8 @@ import offer3 from "./offer_images/offer3.png";
 import offer4 from "./offer_images/offer4.png";
 import offer5 from "./offer_images/offer5.png";
 import offer6 from "./offer_images/offer6.png";
-import offer7 from "./offer_images/offer7.png";
-import offer8 from "./offer_images/offer8.png";
+import offer7 from "./offer_images/offer8.png";
+import offer8 from "./offer_images/offer7.png";
 import offer9 from "./offer_images/offer9.png";
 import offer10 from "./offer_images/offer10.png";
 

@@ -16,7 +16,7 @@ const resources = {
       "offer4": "Diagnostyka zawieszenia",
       "offer5": "Wymiana olejów i filtrów",
       "offer6": "Naprawa układu kierowniczego",
-      "offer7": "Wymiana/Naprawa układu wydechowego",
+      "offer7": "Naprawa układu wydechowego",
       "offer8": "Wymiana termostatu / lamp",
       "offer9": "Wymiana paska rozrządu",
       "offer10": "Elektryka samochodowa",

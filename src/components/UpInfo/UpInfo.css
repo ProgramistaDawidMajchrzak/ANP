@@ -110,11 +110,19 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .up-info_container .up-info-content p {
+    font-size: 14px;
+    margin-left: 4px;
+    width: auto;
+  }
   .up-info_container .up-info-content .second_phone {
     display: none;
   }
   .up-info_container .up-info-content .location-line {
     display: none;
+  }
+  .up-info_container .up-info-content .language-line {
+    margin-left: 50px;
   }
 }
 /*# sourceMappingURL=UpInfo.css.map */
