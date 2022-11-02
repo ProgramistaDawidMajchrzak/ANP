@@ -3,45 +3,47 @@ import './Slider.css';
 import slider1 from '../../images/slider-1.jpg';
 import slider2 from '../../images/slider-2.jpg';
 import slider3 from '../../images/slider-3.jpg';
+import { useTranslation } from 'react-i18next';
 
-const sliderObjects = [
-    {
-        imageSource: slider1,
-        text: "Zadzwoń i umów się na wizytę do końca listopada ",
-        subtext: "otrzymaj zniżkę"
-    },
-    {
-        imageSource: slider2,
-        text: "Kup części zamienne ",
-        subtext: "a na usługę dostaniesz rabat"
-    },
-    {
-        imageSource: slider3,
-        text: "Naprawa silnika, skrzyni biegów, rozrząd?",
-        subtext: "Zajmiemy się tym!"
-    }
-]
+
 
 
 
 function Slider() {
-    const [activeSlide, setActiveSlide] = useState(0);
-    // const changeSlide = () => {
-    //     setInterval(() => {
-    //         const islastSlide = activeSlide === sliderObjects.length - 1;
-    //         const newIndex = islastSlide ? 0 : activeSlide + 1;
-    //         setActiveSlide(newIndex);
-    //     }, 15000);
-    // }
-    // changeSlide();
 
-    // useEffect(() => {
-    //     setInterval(() => {
-    //         const islastSlide = activeSlide === sliderObjects.length - 1;
-    //         const newIndex = islastSlide ? 0 : activeSlide + 1;
-    //         setActiveSlide(newIndex);
-    //     }, 15000);
-    // }, [activeSlide])
+    const { t, i18n } = useTranslation();
+
+    const sliderObjects = [
+        {
+            imageSource: slider1,
+            text: t("sliderText1"),
+            subtext: t("sliderSubText1"),
+        },
+        {
+            imageSource: slider2,
+            text: t("sliderText2"),
+            subtext: t("sliderSubText2"),
+        },
+        {
+            imageSource: slider3,
+            text: t("sliderText3"),
+            subtext: t("sliderSubText3"),
+        }
+    ]
+
+
+    const [activeSlide, setActiveSlide] = useState(0);
+
+    useEffect(() => {
+        const ChangeSlide = () => {
+            setTimeout(() => {
+                const islastSlide = activeSlide === sliderObjects.length - 1;
+                const newIndex = islastSlide ? 0 : activeSlide + 1;
+                setActiveSlide(newIndex);
+            }, 15000);
+        }
+        ChangeSlide();
+    }, [activeSlide])
 
     return (
         <div className="slider-container">

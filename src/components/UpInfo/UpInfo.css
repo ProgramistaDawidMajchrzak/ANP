@@ -104,9 +104,17 @@
 }
 
 .up-info_container .up-info-content .social-line a img {
-  height: 60%;
+  height: 100%;
   width: auto;
   cursor: pointer;
-  margin: 6px;
+}
+
+@media only screen and (max-width: 600px) {
+  .up-info_container .up-info-content .second_phone {
+    display: none;
+  }
+  .up-info_container .up-info-content .location-line {
+    display: none;
+  }
 }
 /*# sourceMappingURL=UpInfo.css.map */

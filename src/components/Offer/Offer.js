@@ -12,75 +12,66 @@ import offer8 from "./offer_images/offer8.png";
 import offer9 from "./offer_images/offer9.png";
 import offer10 from "./offer_images/offer10.png";
 
-const offers = [
-    {
-        name: "naprawa silników",
-        img: offer1,
-        id: 1
-    },
-    {
-        name: "naprawa skrzyni biegów",
-        img: offer2,
-        id: 2
-    },
-    {
-        name: "konserwacja systemu hamulcowego",
-        img: offer3,
-        id: 3
-    },
-    {
-        name: "diagnostyka zawieszenia",
-        img: offer4,
-        id: 4
-    },
-    {
-        name: "wymiana oleju i filtrów",
-        img: offer5,
-        id: 5
-    },
-    {
-        name: "naprawa układu kierowniczego",
-        img: offer6,
-        id: 6
-    },
-    {
-        name: "wymiana termostatu i lamp",
-        img: offer7,
-        id: 7
-    },
-    {
-        name: "naprawa układu wydechowego",
-        img: offer8,
-        id: 8
-    },
-    {
-        name: "wymiana paska rozrządu",
-        img: offer9,
-        id: 9
-    },
-    {
-        name: "elektryka samochodowa",
-        img: offer10,
-        id: 10
-    },
-]
+import { useTranslation } from 'react-i18next';
 
 function Offer() {
+    const { t, i18n } = useTranslation();
+
+    const offers = [
+        {
+            name: t("offer1"),
+            img: offer1,
+            id: 1
+        },
+        {
+            name: t("offer2"),
+            img: offer2,
+            id: 2
+        },
+        {
+            name: t("offer3"),
+            img: offer3,
+            id: 3
+        },
+        {
+            name: t("offer4"),
+            img: offer4,
+            id: 4
+        },
+        {
+            name: t("offer5"),
+            img: offer5,
+            id: 5
+        },
+        {
+            name: t("offer6"),
+            img: offer6,
+            id: 6
+        },
+        {
+            name: t("offer7"),
+            img: offer7,
+            id: 7
+        },
+        {
+            name: t("offer8"),
+            img: offer8,
+            id: 8
+        },
+        {
+            name: t("offer9"),
+            img: offer9,
+            id: 9
+        },
+        {
+            name: t("offer10"),
+            img: offer10,
+            id: 10
+        },
+    ]
     return (
         <div className='offer_container'>
-            <h2>Usługi</h2>
-            {/* <ul>
-                <li>naprawa silników</li>
-                <li>naprawa skrzyni biegów</li>
-                <li>konserwacja systemu hamulcowego</li>
-                <li>diagnostyka zawieszenia</li>
-                <li>wymiana olejów i filtrów</li>
-                <li>naprawa układu kierowniczego</li>
-                <li>wymiana/naprawa układu wydechowego</li>
-                <li>wymiana termostatu, lamp</li>
-                <li>wymiana paska rozrządu</li>
-                <li>elektryka samochodowa</li>
-            </ul> */}
+            <h2>{t("offers")}</h2>
             <ul>
                 {offers.map(offer => (
                     <li key={offer.id}>
@@ -88,6 +79,9 @@ function Offer() {
                         <h4>{offer.name}</h4>
                     </li>
                 ))}
+                {/* <li>
+                    <h4 >{t("offer1")}</h4>
+                </li> */}
             </ul>
         </div>
     )

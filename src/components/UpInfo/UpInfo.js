@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './UpInfo.css';
+import { useTranslation } from 'react-i18next'
 import phoneIcon from '../../images/icons/phone.png';
 import locationIcon from '../../images/icons/location.png';
 import PLLang from '../../images/icons/PL-lang.png';
@@ -7,34 +8,42 @@ import UCLang from '../../images/icons/UC-lang.png';
 import FBIcon from '../../images/icons/fb-icon.png';
 import IGIcon from '../../images/icons/ig-icon.png';
 
+
 function UpInfo() {
+    const { i18n } = useTranslation();
+
+    const changeLanguageForRus = (lang) => {
+        i18n.changeLanguage("ru")
+    };
+    const changeLanguageForPL = (lang) => {
+        i18n.changeLanguage("pl")
+    };
+
     const [polish, setPolish] = useState(true);
     return (
         <div className='up-info_container'>
             <div className='up-info-content'>
-                {/* 
-
-                telefon
-                języki
-                adres
-                social ikony
-
-            */}
                 <div className="phone-line">
                     <img src={phoneIcon} alt="phone_icon" />
                     <p>+48 534 310 619</p>
-                    <p>+48 537 277 895</p>
+                    <p className='second_phone'>+48 537 277 895</p>
                 </div>
                 <div className="language-line">
                     <img
                         src={PLLang}
-                        onClick={() => setPolish(true)}
+                        onClick={() => {
+                            setPolish(true)
+                            changeLanguageForPL()
+                        }}
                         className={polish ? "active" : ""}
                         alt="polish-lang"
                     />
                     <img
                         src={UCLang}
-                        onClick={() => setPolish(false)}
+                        onClick={() => {
+                            setPolish(false)
+                            changeLanguageForRus()
+                        }}
                         className={polish ? "" : "active"}
                         alt="russian-lang"
                     />

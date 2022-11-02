@@ -5,6 +5,7 @@
   display: -ms-flexbox;
   display: flex;
   margin-top: 30px;
+  position: relative;
 }
 
 .contact_container .left_info {
@@ -69,6 +70,7 @@
   width: auto;
   background-color: var(--orange);
   color: white;
+  cursor: pointer;
 }
 
 .contact_container .right_info form .rodo-box {
@@ -83,6 +85,7 @@
 
 .contact_container .right_info form .rodo-box input {
   width: 20px;
+  cursor: pointer;
 }
 
 .contact_container .right_info form .rodo-box .checkbox-valid {
@@ -90,12 +93,65 @@
 }
 
 .contact_container .right_info form .rodo-box p {
+  text-decoration: underline;
   margin-left: 6px;
+  cursor: pointer;
 }
 
 .contact_container h2 {
   color: var(--orange);
-  margin: 0 40%;
   font-size: 32px;
+  width: 100%;
+  text-align: center;
+}
+
+.rodo_info {
+  width: 600px;
+  height: auto;
+  border: 3px solid var(--orange);
+  position: absolute;
+  right: 200px;
+  bottom: 220px;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: white;
+  padding: 4px;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact_container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
+  .contact_container .left_info {
+    width: 100%;
+  }
+  .contact_container .right_info {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .contact_container .right_info form {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .rodo_info {
+    width: 90%;
+    height: auto;
+    right: 4%;
+  }
 }
 /*# sourceMappingURL=Contact.css.map */

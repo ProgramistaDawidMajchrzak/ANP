@@ -25,9 +25,23 @@
 }
 
 .slider-container .text-content h2 {
-  margin: 26px 120px;
+  margin: 26px 0 0 120px;
   color: var(--orange);
   font-size: 42px;
   font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+  .slider-container {
+    height: 420px;
+  }
+  .slider-container .text-content {
+    width: 100%;
+  }
+  .slider-container .text-content h2 {
+    margin: 48px 12px 0 12px;
+    font-size: 32px;
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=Slider.css.map */

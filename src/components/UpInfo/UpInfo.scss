@@ -67,12 +67,21 @@
                     margin: 6px;
                     
                 img{
-                    height: 60%;
+                    height: 100%;
                     width: auto;
                     cursor: pointer;
-                    margin: 6px;
                 }
             }
         }
     }
+    @media only screen and (max-width: 600px) {
+        .up-info-content{
+            .second_phone{
+                display: none;
+            }
+            .location-line{
+                display: none;
+            }
+        }
+      }
 }
