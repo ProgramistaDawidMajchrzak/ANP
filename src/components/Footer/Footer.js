@@ -18,7 +18,7 @@ function Footer() {
             </div>
             <div className="right-info">
                 <p>ANP Serwis Sp. z o.o.</p>
-                <p>ul. Albańska 17, 60-123 Poznań</p>
+                <p>ul. Kordeckiego 39, 60-123 Poznań</p>
                 <p>NIP: 7792545953</p>
                 <a href="https://www.facebook.com/profile.php?id=100086761292949" target="_blank" rel="noreferrer">
                     <img src={FbIcon} alt="fb-icon" />

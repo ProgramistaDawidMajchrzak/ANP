@@ -50,7 +50,7 @@ function UpInfo() {
                 </div>
                 <div className="location-line">
                     <img src={locationIcon} alt="location_icon" />
-                    <p>ul. Albańska 17, 60-123 Poznań</p>
+                    <p>ul. Kordeckiego 39, 60-123 Poznań</p>
                 </div>
                 <div className="social-line">
                     <a href="https://www.facebook.com/profile.php?id=100086761292949" target="_blank" rel="noreferrer">

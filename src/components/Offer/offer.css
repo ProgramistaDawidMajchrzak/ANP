@@ -64,4 +64,22 @@
   font-weight: 600;
   text-transform: uppercase;
 }
+
+@media only screen and (max-width: 600px) {
+  .offer_container ul {
+    width: 80%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-right: 10%;
+  }
+  .offer_container ul li {
+    width: 140px;
+    height: 100px;
+    margin: 20px 0 0 0;
+  }
+  .offer_container ul li h4 {
+    font-size: 12px;
+  }
+}
 /*# sourceMappingURL=offer.css.map */

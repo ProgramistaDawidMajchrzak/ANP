@@ -13,6 +13,12 @@
   height: 100%;
 }
 
+.contact_container .left_info h4 {
+  text-align: center;
+  color: var(--orange);
+  margin: 0;
+}
+
 .contact_container .left_info img {
   width: 80%;
   max-width: 420px;

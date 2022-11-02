@@ -15,7 +15,7 @@ import offer10 from "./offer_images/offer10.png";
 import { useTranslation } from 'react-i18next';
 
 function Offer() {
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
 
     const offers = [
         {
@@ -79,12 +79,9 @@ function Offer() {
                         <h4>{offer.name}</h4>
                     </li>
                 ))}
-                {/* <li>
-                    <h4 >{t("offer1")}</h4>
-                </li> */}
             </ul>
         </div>
     )
 }
 
-export default Offer
+export default Offer;

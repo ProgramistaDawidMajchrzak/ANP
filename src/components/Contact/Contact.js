@@ -80,6 +80,7 @@ function Contact() {
             <div className="contact_container">
                 <div className="left_info">
                     <h2>{t("map")}</h2>
+                    <h4>ul. Kordeckiego 39, 60-123 Poznań</h4>
                     <img src={Map} alt="image_map" />
                 </div>
                 <div className="right_info">
@@ -132,7 +133,7 @@ function Contact() {
                         <p>Wypełniając obowiązek informacyjny wynikający z art. 13 ogólnego Rozporządzenia o ochronie danych osobowych z dnia 27 kwietnia 2016r. (Dz. Urz. UE L 119 z 04.05.2016), aby zapewnić Państwu kontrolę nad sposobem wykorzystywania Państwa danych osobowych informuję, iż:
                             <br />
                             <br />
-                            1. administratorem Pani/Pana danych osobowych jest ANP Serwis Sp. z o.o. z siedzibą w ul. Albańska 17, 60-123 Poznań, NIP 7792545953
+                            1. administratorem Pani/Pana danych osobowych jest ANP Serwis Sp. z o.o. z siedzibą w ul. Kordeckiego 39, 60-123 Poznań, NIP 7792545953
                             <br />
                             2. Pani/Pana dane osobowe przetwarzane będą na podstawie art. 6 ust. 1 ogólnego Rozporządzenia o ochronie danych osobowych z dnia 27 kwietnia 2016r. w celu wymienionym w powyższym przepisie w takim zakresie, w jakim – spełniony jest co najmniej jeden z poniższych warunków:
                             <br />
