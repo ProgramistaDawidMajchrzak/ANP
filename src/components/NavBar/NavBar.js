@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from '../../images/logo2.png';
-import './Navbar.css';
+import './NavBar.css';
 
 
-function Navbar() {
+function NavBar() {
     return (
         <div className='navbar_container'>
             <img src={logo} alt="logo" />
@@ -11,4 +11,4 @@ function Navbar() {
     )
 }
 
-export default Navbar;
+export default NavBar;
