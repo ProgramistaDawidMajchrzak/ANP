@@ -24,9 +24,9 @@ function Offer() {
             id: 1
         },
         {
-            name: t("offer2"),
-            img: offer2,
-            id: 2
+            name: t("offer9"),
+            img: offer9,
+            id: 9
         },
         {
             name: t("offer3"),
@@ -59,9 +59,9 @@ function Offer() {
             id: 8
         },
         {
-            name: t("offer9"),
-            img: offer9,
-            id: 9
+            name: t("offer2"),
+            img: offer2,
+            id: 2
         },
         {
             name: t("offer10"),
