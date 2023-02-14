@@ -13,7 +13,7 @@ function Footer() {
         <div className="footer_container">
             <div className="left-info">
                 <p>+48 534 310 619</p>
-                <p>+48 537 277 895</p>
+                <p>+48 888 759 846</p>
                 <p>anpserwis.office@gmail.com</p>
             </div>
             <div className="right-info">

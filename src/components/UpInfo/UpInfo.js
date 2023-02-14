@@ -26,7 +26,7 @@ function UpInfo() {
                 <div className="phone-line">
                     <img src={phoneIcon} alt="phone_icon" />
                     <p>+48 534 310 619</p>
-                    <p className='second_phone'>+48 537 277 895</p>
+                    <p className='second_phone'>+48 888 759 846</p>
                 </div>
                 <div className="language-line">
                     <img

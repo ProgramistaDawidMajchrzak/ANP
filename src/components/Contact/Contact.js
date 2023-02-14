@@ -81,6 +81,7 @@ function Contact() {
                 <div className="left_info">
                     <h2>{t("map")}</h2>
                     <h4>ul. Kordeckiego 39, 60-123 Poznań</h4>
+                    <h4>250m od przystanku tramwajowego przy ul. Głogowskiej</h4>
                     <img src={Map} alt="image_map" />
                 </div>
                 <div className="right_info">

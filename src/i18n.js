@@ -4,10 +4,10 @@ import { initReactI18next } from "react-i18next";
 const resources = {
   pl: {
     translation: {
-      "sliderText1": "Zadzwoń i umów się na wizytę do końca listopada",
-      "sliderSubText1": "otrzymaj zniżkę",
-      "sliderText2": "Kup części zamienne ",
-      "sliderSubText2": "a na usługę dostaniesz rabat",
+      "sliderText1": "Promocja na komputerową diagnostykę",
+      "sliderSubText1": "i wymianę paska rozrządu",
+      "sliderText2": "Wymiana oleju dla samochodów",
+      "sliderSubText2": "z automatyczną skrzynią biegów",
       "sliderText3": "Naprawa silnika, skrzyni biegów, rozrząd?",
       "sliderSubText3": "Zajmiemy się tym!",
       "offer1": "Naprawa silników",
@@ -34,10 +34,10 @@ const resources = {
   },
   ru: {
     translation: {
-      "sliderText1": "Сделай запись до конца ноября",
-      "sliderSubText1": "Получи скидку",
-      "sliderText2": "Купи запчасти у нас",
-      "sliderSubText2": "И получи специальное предложение на их замену",
+      "sliderText1": "Акция на замену ГРМ и ",
+      "sliderSubText1": "компьтютерную диагностику",
+      "sliderText2": "Полная и частичная замена масла",
+      "sliderSubText2": "в АКПП от 350 зл",
       "sliderText3": "Стучит двигатель , не работает коробка передач , свист от ГРМ?",
       "sliderSubText3": "Мы решим проблему!",
       "offer1": "Ремонт двигателя",
