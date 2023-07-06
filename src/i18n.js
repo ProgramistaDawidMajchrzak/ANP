@@ -29,7 +29,8 @@ const resources = {
       "askQ": "Zadaj pytanie",
       "send": "Wyślij",
       "footer1": "Nie czekaj!",
-      "footer2": "Zadzwoń i umów się już teraz!"
+      "footer2": "Zadzwoń i umów się już teraz!",
+      "openMap": "OTWÓRZ GOOGLE MAPS"
     }
   },
   ru: {
@@ -59,7 +60,8 @@ const resources = {
       "askQ": "Задайте вопрос",
       "send": "Отправлять",
       "footer1": "Не ждите!",
-      "footer2": "Позвоните нам и запишитесь на прием прямо сейчас!"
+      "footer2": "Позвоните нам и запишитесь на прием прямо сейчас!",
+      "openMap": "ОТКРЫТЬ GOOGLE КАРТЫ"
     }
   }
 }

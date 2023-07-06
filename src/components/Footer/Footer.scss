@@ -12,6 +12,15 @@
         padding-top: 40px;
         width: 30%;
         height: auto;
+        a{
+            color: var(--white);
+            font-weight: 600;
+            margin-left: 6px;
+            text-decoration: none;
+            display: block;
+            margin: 1.5rem 0;
+            cursor: pointer;
+        }
     }
     .right-info{
         padding-top: 40px;

@@ -12,8 +12,8 @@ function Footer() {
     return (
         <div className="footer_container">
             <div className="left-info">
-                <p>+48 534 310 619</p>
-                <p>+48 888 759 846</p>
+                <a href="tel:+48 534 310 619">+48 534 310 619</a>
+                <a href="tel:+48 888 759 846">+48 888 759 846</a>
                 <p>anpserwis.office@gmail.com</p>
             </div>
             <div className="right-info">

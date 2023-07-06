@@ -24,9 +24,11 @@ function UpInfo() {
         <div className='up-info_container'>
             <div className='up-info-content'>
                 <div className="phone-line">
-                    <img src={phoneIcon} alt="phone_icon" />
-                    <p>+48 534 310 619</p>
-                    <p className='second_phone'>+48 888 759 846</p>
+                    <a className='img' href="tel:+48 534 310 619">
+                        <img src={phoneIcon} alt="phone_icon" />
+                    </a>
+                    <a className='phone' href="tel:+48 534 310 619">+48 534 310 619</a>
+                    <a className='phone second_phone' href="tel:+48 888 759 846">+48 888 759 846</a>
                 </div>
                 <div className="language-line">
                     <img

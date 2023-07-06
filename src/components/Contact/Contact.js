@@ -1,6 +1,6 @@
+import emailjs from 'emailjs-com';
 import React, { useState } from 'react';
 import './Contact.css';
-import emailjs from 'emailjs-com';
 
 import Map from './contact_images/map.png';
 
@@ -73,6 +73,7 @@ function Contact() {
             sendEmail(e)
         }
     }
+    const map = "https://www.google.com/maps/place/Auto+naprawa+ANP+serwis/@52.3838128,16.8749935,17z/data=!3m1!4b1!4m6!3m5!1s0x47044516874f7f5d:0x8307427b08e5c512!8m2!3d52.3838128!4d16.8775684!16s%2Fg%2F1ptvwwjw2?entry=ttu"
 
 
     return (
@@ -83,6 +84,9 @@ function Contact() {
                     <h4>ul. Kordeckiego 39, 60-123 Poznań</h4>
                     <h4>250m od przystanku tramwajowego przy ul. Głogowskiej</h4>
                     <img src={Map} alt="image_map" />
+                    <a href={map} rel="noreferrer" target='_blank'>
+                        <h3>{t("openMap")}</h3>
+                    </a>
                 </div>
                 <div className="right_info">
                     <h2>{t("contact")}</h2>

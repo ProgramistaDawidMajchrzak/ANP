@@ -18,6 +18,16 @@
   height: auto;
 }
 
+.footer_container .left-info a {
+  color: var(--white);
+  font-weight: 600;
+  margin-left: 6px;
+  text-decoration: none;
+  display: block;
+  margin: 1.5rem 0;
+  cursor: pointer;
+}
+
 .footer_container .right-info {
   padding-top: 40px;
   width: 30%;

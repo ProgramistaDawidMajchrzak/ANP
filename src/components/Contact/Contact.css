@@ -30,6 +30,25 @@
           transform: translate(-50%, 0);
 }
 
+.contact_container .left_info a {
+  background-color: var(--orange);
+  display: block;
+  width: 50%;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  text-decoration: none;
+}
+
+.contact_container .left_info a h3 {
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  padding: .5rem 0;
+  margin: 0;
+}
+
 .contact_container .right_info {
   width: 50%;
   height: 100%;
@@ -133,6 +152,9 @@
   }
   .contact_container .left_info {
     width: 100%;
+  }
+  .contact_container .left_info a {
+    width: 80%;
   }
   .contact_container .right_info {
     width: 100%;
